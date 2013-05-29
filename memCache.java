@@ -16,7 +16,7 @@ private int port;
 				this.port=Integer.parseInt(args[1]);
 				else
 				this.port=1008;
-			}catch(Exception e){
+			}catch(Exception e) {
 				this.port=1008;
 			}
 		}else{
